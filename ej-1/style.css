@@ -238,7 +238,7 @@ input {
 
 
 .ejercicio-3 div:hover {
-    transform: skew(-90deg);
+    transform: rotate(90deg);
 }
 
 .ejercicio-3 div:nth-child(2) {
@@ -259,7 +259,7 @@ input {
   - Al hacer hover sobre el contenedor, rotar cada cuadrado 180 grados a la derecha sobre el eje Y, con una duración de 0.3s, teniendo cada uno un delay de 0.2 segundos con respecto al de la izquierda (es decir, 0, 0.2, 0.4 y 0.6) 
 */
 .ejercicio-4 div:hover {
-    transform: skewY(180deg);
+    transform: rotate(180deg);
 }
 
 .ejercicio-4 div:nth-child(2) {
@@ -340,3 +340,4 @@ input {
   ----------------------------------
   - Replicar el efecto de hover del botón Editar, haciendo que el ícono aparezca desde arriba para el botón de Comprar y desde la izquierda para el botón de Volver.  
 */
+
